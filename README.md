@@ -14,7 +14,7 @@
   * Submit any necessary `.env` variables for BOTH your backend and front end projects so that TA's can have an easier time configuring their environments
  
 ## Feature Tasks 
-* Use the `validator` module demonstrated in lecture today to add validation to your `AuthForm` component
+* Run `npm i validator` and use the `validator` module demonstrated in lecture today to add validation to your `AuthForm` component
 * Add error handling for a 409 conflict error if a user submits a username or email that is already in the database
 * Deploy your frontend app with these new changes and submit the Heroku URL
 * **Your deployed app must be at an MVP working state to get full credit. The MVP deployed requirements are:**
