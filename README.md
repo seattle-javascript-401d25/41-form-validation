@@ -22,11 +22,10 @@
     * You must be able to create AND edit a new profile, and upon logging out and logging in, see that same profile
     * You must be able to upload photos successfully, and see those photos displayed on the page upon each login session
     * Remember, cookies are NOT cached on the Heroku free tier, so don't worry about persisting login sessions for now.
-    * Because of the cookie restrictions on deployment, Google OAuth will **not work completely**. *However*, you must still have deployed OAuth working at these MVP steps:
-          * User clicks "Sign up with Google"
-          * User sees the Google consent screen
-          * User clicks the account they wish to login with
-          * User returns back to the signup/login homepage (because we are unable to store cookies on deployment on the free Heroku tier at this time, so we are unable to go the `/dashboard` page as we properly should)
+* Because of the cookie restrictions on deployment, Google OAuth will **not work completely**. *However*, you must still have deployed OAuth working at these MVP steps:
+    * User clicks "Sign up with Google"
+    * User sees the Google consent screen
+    * User returns back to the signup/login homepage (because we are unable to store cookies on deployment on the free Heroku tier at this time, so we are unable to go the `/dashboard` page as we properly should)
   
 ### backend
 * Ensure your `Config Vars` on your deployed Heroku backend contain all the necessary `.env` variables in order to work. Make the necessary changes, i.e. anything referencing `localhost` should now point to your deployed URLs instead
